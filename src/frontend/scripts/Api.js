@@ -1,12 +1,15 @@
 import axios from "axios";
 import { getAuthToken, getUserName } from "./util";
 
+const API_SERVER_NAME = process.env.VUE_APP_BACKEND_SERVER_NAME;
+const API_SERVER_PORT = process.env.VUE_APP_BACKEND_SERVER_PORT;
+
 export default () => {
     const authToken = getAuthToken();
     const token = authToken.token;
 
     const apiClient = axios.create({
-        baseURL: `http://localhost:3000`,
+        baseURL: `http://${API_SERVER_NAME}:${API_SERVER_PORT}`,
     });
 
     apiClient.defaults.withCredentials = true;
