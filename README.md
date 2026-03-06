@@ -1,6 +1,10 @@
 # Vue Personal Finance Project
 
-A complete full-stack web application for managing personal finances. Track your bank accounts, investments, and savings — all in one place. Built with **Vue 3** on the frontend, **Node.js / Express** on the backend, and **Oracle Database** for persistent storage.
+A complete full-stack web application for managing personal finances. 
+      
+      Track your bank accounts, investments, and savings — all in one place. 
+      
+      Built with **Vue 3** on the frontend, **Node.js / Express** on the backend, and **Oracle Database** for persistent storage.
 
 ---
 
